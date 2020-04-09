@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 #youtube api
-AIzaSyCga6pCzIiMxbAkr5UKSBb7EkkrRlHeMNQ
+src/.env
