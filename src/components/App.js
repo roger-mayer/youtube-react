@@ -20,8 +20,6 @@ class App extends React.Component {
                 q: term
             }
         });
-
-
         //update application with search submission
         this.setState({
             videos: response.data.items,
