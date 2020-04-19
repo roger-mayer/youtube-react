@@ -5,7 +5,7 @@ const VideoDetail = (video) => {
     if (!video){
         return <div>Loading...</div>;
     }
-
+    // TypeError: Cannot read property 'videoId' of undefined
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
 
     return (
